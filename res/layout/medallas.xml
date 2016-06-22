@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blanco"
+    tools:context="com.tesis.pablosanjuan.tesis.Museos">
+
+    <ScrollView 
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+     	android:layout_height="match_parent">
+		    <Button
+		       android:layout_marginTop="10px"
+		       android:drawableLeft="@drawable/moneda"
+		       style="@style/botones"
+		       android:id="@+id/btn_des_museo1"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="  Arma del General "/>
+		    
+			<Button
+		       android:layout_marginTop="10px"
+		       android:drawableLeft="@drawable/moneda"
+		       style="@style/botones"
+		       android:id="@+id/btn_des_museo2"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="  Escudo de la familia Mosquera"/>
+		        
+			<Button
+		       android:layout_marginTop="10px"
+		       android:drawableLeft="@drawable/moneda"
+		       style="@style/botones"
+		       android:id="@+id/btn_des_museo3"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="  Solideo de Obispo "/>
+		            
+			<Button
+		       android:layout_marginTop="10px"
+		       android:drawableLeft="@drawable/moneda"
+		       style="@style/botones"
+		       android:id="@+id/btn_des_museo4"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="  Encuentra 2 piezas del General "/>
+			
+			<Button
+		       android:layout_marginTop="10px"
+		       android:drawableLeft="@drawable/moneda"
+		       style="@style/botones"
+		       android:id="@+id/btn_des_museo5"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="  Encuentra TODAS las piezas del General "/>
+			
+			<Button
+		       android:layout_marginTop="10px"
+		       android:drawableLeft="@drawable/moneda"
+		       style="@style/botones"
+		       android:id="@+id/btn_des_museo6"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:text="  Comparte en Facebook "/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

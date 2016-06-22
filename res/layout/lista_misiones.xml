@@ -1,0 +1,140 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo5"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+	<ImageButton
+		android:layout_marginTop="8dp"
+        android:id="@+id/btn_info"
+        android:background="@color/blanco"
+        android:src="@drawable/ic_action_about"
+        android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"/>
+    
+    <RelativeLayout
+	android:layout_marginTop="33dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<!--         boton1 -->
+        	    <LinearLayout
+        	    android:layout_marginTop="11dp"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		        android:layout_alignParentLeft="true"
+		       	android:id="@+id/boton_m1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentLeft="true"
+	        	    android:id="@+id/btn_m1"
+	        	    style="@style/botones_negros"
+					android:text="Mision 1"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+<!--         boton2 -->
+        	    <LinearLayout
+        	    android:layout_marginTop="5dp"
+        	    android:layout_below="@+id/boton_m1"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		       	android:id="@+id/boton_m2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentLeft="true"
+	        	    android:id="@+id/btn_m2"
+	        	    style="@style/botones_negros"
+					android:text="Mision 2"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+<!--         boton3 -->
+        	    <LinearLayout
+        	        android:id="@+id/boton_m3"
+        	        android:layout_width="match_parent"
+        	        android:layout_height="wrap_content"
+        	        android:layout_alignParentLeft="true"
+        	        android:layout_below="@+id/boton_m2"
+        	        android:layout_marginTop="5dp"
+        	        android:gravity="center_horizontal"
+        	        android:orientation="horizontal" >
+        	        <RelativeLayout
+        	            android:layout_width="match_parent"
+        	            android:layout_height="match_parent" >
+        	            <Button
+        	                android:id="@+id/btn_m3"
+        	                style="@style/botones_negros"
+        	                android:layout_alignParentLeft="true"
+        	                android:text="Mision 3" />
+        	        </RelativeLayout>
+        	    </LinearLayout>
+<!--        boton4 -->
+        	    <LinearLayout
+				android:layout_marginTop="11dp"
+        	    android:layout_alignParentRight="true"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		       	android:id="@+id/boton_m4"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentRight="true"
+	        	    android:id="@+id/btn_m4"
+	        	    style="@style/botones_negros"
+					android:text="Mision 4"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+				
+<!--        boton5 -->
+        	    <LinearLayout
+        	    android:layout_marginTop="5dp"
+        	    android:layout_below="@+id/boton_m4"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		       	android:id="@+id/boton_m5"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentRight="true"
+	        	    android:id="@+id/btn_m5"
+	        	    style="@style/botones_negros"
+					android:text="Mision 5"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+
+<!--        boton6 -->
+        	    <LinearLayout
+        	    android:layout_marginTop="5dp"
+        	    android:layout_below="@+id/boton_m5"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		       	android:id="@+id/boton_m6"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentRight="true"
+	        	    android:id="@+id/btn_m6"
+	        	    style="@style/botones_negros"
+					android:text="Mision 6"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+</RelativeLayout>
+</LinearLayout>

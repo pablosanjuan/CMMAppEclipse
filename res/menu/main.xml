@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/perfil"
+        android:title="Editar Perfil"/>
+    
+    <item
+        android:id="@+id/Borrar"
+        android:title="Borrar Perfil"/>
+    
+	<item
+        android:id="@+id/Contacto"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Contacto"/>
+        
+	<item
+        android:id="@+id/Acerca"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Acerca de..."/>
+            
+	<item
+        android:id="@+id/Salir"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Salir"/>
+
+</menu>

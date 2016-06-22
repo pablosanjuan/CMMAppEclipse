@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context="com.tesis.pablosanjuan.tesis.feed_back">
+
+
+    <Button
+        style="@style/botones_negros2"
+        android:id="@+id/enviar"
+        android:text="Enviar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="100px"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <TextView
+                android:gravity="center"
+                android:textSize="25dp"
+                android:id="@+id/txt_opinion"
+                android:text="Danos Tu Opinion, Sugerencia o Comentario - Ayudanos A Mejorar."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:gravity="center"
+                android:hint="Mensaje"
+                android:textColorHint="@color/gris_claro"
+                android:id="@+id/edt_msn"
+                android:layout_width="match_parent"
+                android:layout_height="80px" />
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<FrameLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+	<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    	<ImageView
+    	android:layout_marginLeft="30dp"
+    	android:layout_centerVertical="true"
+    	android:layout_alignParentLeft="true"
+		android:alpha="0.4"
+		android:background="@drawable/moneda"
+		android:layout_width="300dp"
+		android:layout_height="300dp"/>
+    
+    </RelativeLayout>
+    
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+		            <LinearLayout
+		            android:id="@+id/lista_opciones"	
+					android:orientation="vertical"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content">
+					<ScrollView 
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+		            <LinearLayout
+					android:orientation="vertical"
+					android:gravity="center" 
+					android:layout_width="match_parent"
+					android:layout_height="match_parent">
+					<Button
+					android:text="Recorrido"
+					android:id="@+id/btn_recorrido"
+					style="@style/botones_negros2"
+					android:layout_marginTop="8dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+					<Button
+					android:layout_marginTop="8dp"
+					android:text="Sala 1"
+					android:id="@+id/btn_sala1"
+					style="@style/botones_negros2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+					<Button
+					android:text="Sala 2"
+					android:id="@+id/btn_sala2"
+					android:layout_marginTop="8dp"
+					style="@style/botones_negros2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+					<Button
+					android:text="Sala 3"
+					android:id="@+id/btn_sala3"
+					android:layout_marginTop="8dp"
+					style="@style/botones_negros2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+					<Button
+					android:text="Sala 4"
+					android:id="@+id/btn_sala4"
+					android:layout_marginTop="8dp"
+					style="@style/botones_negros2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+					<Button
+					android:text="Sala 5"
+					android:id="@+id/btn_sala5"
+					style="@style/botones_negros2"
+					android:layout_marginTop="8dp"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+					</LinearLayout>
+					</ScrollView>
+		            </LinearLayout>	
+					
+		            <LinearLayout
+					android:layout_toRightOf="@+id/lista_opciones"
+		            android:orientation="vertical"
+					android:paddingTop="40dp"
+					android:paddingRight="60dp"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent">
+		            <ImageView
+		            android:background="@drawable/plano"
+		            android:id="@+id/mapas_museo"
+		    		android:layout_width="match_parent"
+		    		android:layout_height="match_parent" />
+	            </LinearLayout>	
+	</RelativeLayout>
+</FrameLayout>

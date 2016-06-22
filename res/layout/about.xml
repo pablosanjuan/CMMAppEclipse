@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/gris1"
+    tools:context="com.tesis.pablosanjuan.tesis.About">
+
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="CMM-App  v. 0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="@color/blanco"
+        android:text="  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Semana Santa 2015"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Universidad del Cauca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Vicerrectoria de Cultura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text=" y Bienestar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Casa Museo Mosquera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Departamento de Telematica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Impulsado por:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout 
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <ImageView
+	        android:src="@drawable/logo"
+	        android:layout_width="200px"
+	        android:layout_height="200px" />
+	    <Button
+	        android:layout_marginLeft="20dp"
+	        style="@style/botones_blancos2"
+	        android:id="@+id/visitanos"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Visitanos"/>
+    </LinearLayout>
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="-----------------------------------"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Version alpha - Tesis de Pregrado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView 
+        android:textColor="@color/blanco"
+        android:text="Popayan - 2015"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

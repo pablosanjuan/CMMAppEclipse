@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="magenta">#db3082</color>
+  	<color name="azul_verdoso">#29828c</color>
+    <color name="oro">#FFBF00</color>
+    <color name="blanco">#ffffff</color>
+    <color name="amarillo">#ffff00</color>
+    <color name="amarillo_claro">#F4FA58</color>
+    <color name="azul">#0000ff</color>
+    <color name="rojo">#ff0000</color>
+    <color name="verde">#00ff00</color>
+    <color name="infopcion">#000001</color>
+    <color name="azul_agua_marina">#0489B1</color>
+    <color name="fondo">#111111</color>
+    <color name="negro">#000000</color>
+    <color name="gris_claro">#6E6E6E</color>
+    <color name="azuloscuro">#0b0b3b</color>
+    <color name="azulclaro">#013ADF</color>
+    <color name="naranja">#ff8000</color>
+    <color name="verde_fosfo">#80FF00</color>
+    <color name="verde_boton">#04B404</color>
+    <color name="rojo_oscuro">#B40404</color>
+    <color name="rojo_oscuro2">#8A0808</color>
+    <color name="rojo_claro">#FE2E2E</color>
+    <color name="gris1">#1C1C1C</color>
+    <color name="azul_clarito">#81DAF5</color>
+</resources>

@@ -1,0 +1,72 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Opcion"
+    android:gravity="center"
+    android:background="@drawable/fondo4"
+    android:orientation="horizontal" >
+
+   			<LinearLayout
+   			android:layout_alignParentRight="true"
+   			android:id="@+id/mitad_btn"
+            android:gravity="center"
+        	android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding">
+            
+                <Button
+                    android:id="@+id/btn_scan_m2"
+                    style="@style/botones_negros2"
+					android:text="Escanear"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+            </LinearLayout>			
+            <LinearLayout
+            android:id="@+id/mitad_txt"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@+id/mitad_btn"
+        	android:layout_width="match_parent"
+			android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding">
+            
+                <TextView
+                    android:textColor="@color/blanco"
+					android:shadowColor="@color/negro"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:gravity="center"
+					android:text="Bienvenido, te invitamos a prestar atención al recorrido, los objetos a tu alrededor y a los comentarios que puede hacerte el guía del recorrido. 
+					¡Podrían ser de ayuda!"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+			<TextView
+                    android:textColor="@color/blanco"
+					android:shadowColor="@color/negro"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+					android:text="Pista:"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+				<TextView
+				    android:id="@+id/pista_m2"
+                    android:textColor="@color/blanco"
+					android:shadowColor="@color/negro"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+					android:text="Empecemos por lo básico… En este lugar departían en familia los Mosquera Arboleda."
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+            </LinearLayout>	
+					
+
+</RelativeLayout>

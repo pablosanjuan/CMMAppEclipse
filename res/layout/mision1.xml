@@ -1,0 +1,46 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Opcion"
+    android:gravity="center"
+    android:background="@drawable/fondo4"
+    android:orientation="horizontal" >
+
+   			<LinearLayout
+   			android:layout_alignParentRight="true"
+   			android:id="@+id/mitad_btn"
+            android:gravity="center"
+        	android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding">
+            
+                <Button
+                    android:id="@+id/btn_scan_m1"
+                    style="@style/botones_negros2"
+					android:text="Escanear"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+            </LinearLayout>			
+            <LinearLayout
+            android:id="@+id/mitad_txt"
+            android:gravity="center"
+            android:layout_toLeftOf="@+id/mitad_btn"
+        	android:layout_width="match_parent"
+			android:layout_height="match_parent">
+            
+                <TextView
+                    android:textColor="@color/blanco"
+                    android:shadowColor="@color/negro"
+                    android:shadowDx="5"
+                    android:shadowDy="5"
+                    android:shadowRadius="10"
+                    android:gravity="center"
+					android:text="¡Bienvenido a la Casa Museo Mosquera! Esta es una prueba rápida del correcto funcionamiento del Scanner! Busca el código QR en el afiche y presiona Escanear"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+            </LinearLayout>	
+					
+
+</RelativeLayout>

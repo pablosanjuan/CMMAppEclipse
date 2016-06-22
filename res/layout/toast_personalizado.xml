@@ -1,0 +1,24 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_contenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/negro"
+    android:gravity="center"
+    android:alpha="0.4"
+    android:padding="20px"
+    android:orientation="vertical" >
+	
+	<TextView
+	android:text="Hola Mundo"
+	android:layout_marginTop="20px"
+	android:id="@+id/text_toast"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/blanco"
+    android:shadowColor="@color/negro"
+    android:shadowDx="2"
+    android:shadowDy="2"
+    android:shadowRadius="5"
+	android:textSize="20dp"/>
+</LinearLayout>

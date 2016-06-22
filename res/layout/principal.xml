@@ -1,0 +1,125 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/fondo1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+			        <ImageButton
+			        android:layout_alignParentRight="true"
+					android:layout_marginTop="10dp"
+			        android:layout_marginRight="10dp"
+			        android:id="@+id/btn_settings"
+			        android:background="@color/negro"
+			        android:src="@drawable/ic_action_settings"
+			        android:layout_width="wrap_content"
+			   		android:layout_height="wrap_content"/>
+	        	</RelativeLayout>
+	    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+
+<!--         boton1 -->
+        	    <LinearLayout
+        	    android:layout_marginTop="11dp"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		       	android:id="@+id/boton1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentLeft="true"
+	        	    android:id="@+id/btn_codigo_qr"
+	        	    style="@style/botones_negros"
+					android:text="Misiones"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+<!--         boton2 -->
+<!--         	    <LinearLayout -->
+<!--         	    android:layout_marginTop="5dp" -->
+<!--         	    android:layout_below="@+id/boton1" -->
+<!-- 		        android:gravity="center_horizontal" -->
+<!-- 		        android:orientation="horizontal" -->
+<!-- 		       	android:id="@+id/boton2" -->
+<!-- 		        android:layout_width="match_parent" -->
+<!-- 		        android:layout_height="wrap_content"> -->
+<!-- 		        <RelativeLayout -->
+<!-- 				android:layout_width="match_parent" -->
+<!-- 				android:layout_height="match_parent"> -->
+<!-- 					<Button -->
+<!-- 	        	    android:layout_alignParentLeft="true" -->
+<!-- 	        	    android:id="@+id/btn_logros" -->
+<!-- 	        	    style="@style/botones_negros" -->
+<!-- 					android:text="Medallas"/> -->
+<!-- 	        	</RelativeLayout> -->
+<!-- 				</LinearLayout> -->
+<!--         boton3 -->
+        	    <LinearLayout
+        	        android:id="@+id/boton3"
+        	        android:layout_width="match_parent"
+        	        android:layout_height="wrap_content"
+        	        android:layout_alignParentLeft="true"
+        	        android:layout_below="@+id/boton1"
+        	        android:layout_marginTop="5dp"
+        	        android:gravity="center_horizontal"
+        	        android:orientation="horizontal" >
+        	        <RelativeLayout
+        	            android:layout_width="match_parent"
+        	            android:layout_height="match_parent" >
+        	            <Button
+        	                android:id="@+id/btn_museos"
+        	                style="@style/botones_negros"
+        	                android:layout_alignParentLeft="true"
+        	                android:text="Inf. Piezas" />
+        	        </RelativeLayout>
+        	    </LinearLayout>
+<!--        boton4 -->
+        	    <LinearLayout
+        	    android:layout_marginTop="5dp"
+        	    android:layout_below="@+id/boton3"
+		        android:gravity="center_horizontal"
+		        android:orientation="horizontal"
+		       	android:id="@+id/boton4"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        <RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent">
+					<Button
+	        	    android:layout_alignParentLeft="true"
+	        	    android:id="@+id/btn_ranking"
+	        	    style="@style/botones_negros"
+					android:text="Mapa Museo"/>
+	        	</RelativeLayout>
+				</LinearLayout>
+
+	<LinearLayout
+    	android:layout_alignParentBottom="true"
+        android:id="@+id/info_perfil"
+        android:gravity="center_vertical"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content">
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent" >
+
+        <TextView
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        style="@style/titulos"
+   		android:id="@+id/txt_usuario"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>
+</RelativeLayout>
+</LinearLayout>

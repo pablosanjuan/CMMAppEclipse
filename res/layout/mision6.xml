@@ -1,0 +1,71 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Opcion"
+    android:gravity="center"
+    android:background="@drawable/fondo4"
+    android:orientation="horizontal" >
+
+   			<LinearLayout
+   			android:layout_alignParentRight="true"
+   			android:id="@+id/mitad_btn"
+            android:gravity="center"
+        	android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding">
+            
+                <Button
+                    android:id="@+id/btn_scan_m6"
+                    style="@style/botones_negros2"
+					android:text="Escanear"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+            </LinearLayout>			
+             <LinearLayout
+            android:id="@+id/mitad_txt"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_toLeftOf="@+id/mitad_btn"
+        	android:layout_width="match_parent"
+			android:layout_height="match_parent"
+            android:layout_margin="@dimen/padding">
+            
+                <TextView
+                    android:textColor="@color/blanco"
+					android:shadowColor="@color/negro"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:gravity="center"
+					android:text="Aunque se dice que el Gran General Mosquera era ateo, su entorno se caracterizaba entre otros por sus creencias religiosas especialmente por parte de su hermano el Arzobispo Manuel José Mosquera."
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+			<TextView
+                    android:textColor="@color/blanco"
+					android:shadowColor="@color/negro"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:gravity="center"
+                    android:layout_marginTop="30dp"
+					android:text="Pista:"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+				<TextView
+				    android:id="@+id/pista_m6"
+                    android:textColor="@color/blanco"
+					android:shadowColor="@color/negro"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="5"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+					android:text="Esta puede ser la sala más compleja, ahora sí, ¡ponle mucha atención al guía! Esta es una obra de Arte Quiteño del siglo XVIII (Posdata: que la santísima trinidad este contigo)"
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"/>
+            </LinearLayout>	
+					
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context="com.tesis.pablosanjuan.tesis.Presentacion" >
+
+    <LinearLayout
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:background="@color/negro"
+    android:alpha="0.9"
+	android:layout_width="match_parent"
+    android:layout_height="130px">
+    </LinearLayout>
+    <LinearLayout
+    android:gravity="center"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+	android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <RelativeLayout 
+	android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+		    <ImageView
+		        android:id="@+id/logo_unicuca"
+		        android:layout_width="160px"
+		        android:layout_height="110px"
+		        android:layout_centerVertical="true"
+		        android:layout_margin="10dp"
+		        android:layout_alignParentRight="true"
+		        android:src="@drawable/unicauca" />
+		    
+		   		<ImageView
+		        android:id="@+id/logo_museo"
+		        android:layout_width="160px"
+		        android:layout_height="110px"
+		        android:layout_centerVertical="true"
+		        android:layout_margin="10dp"
+		        android:layout_toLeftOf="@+id/logo_unicuca"
+		        android:src="@drawable/cmm" />
+
+		    
+			<ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="180px"
+		        android:layout_height="130px"
+		        android:layout_centerVertical="true"
+		        android:layout_toRightOf="@+id/txt_patrocinio"
+		        android:src="@drawable/logo" />
+		    <TextView
+		        android:id="@+id/txt_patrocinio"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:layout_alignParentLeft="true"
+		        android:text="Impulsado Por : "
+		        android:textColor="@color/blanco"
+		        android:textSize="20dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
